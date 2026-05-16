@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "silencemob",
+  "version": "${version}",
+  "name": "Silence Mob!",
+  "description": "Adds the ability to feed Poisonous Potato to mobs to silence them",
+  "authors": [
+    "Mrbysco"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/silence-mob",
+    "sources": "https://github.com/Mrbysco/SilenceMob",
+    "issues": "https://github.com/Mrbysco/SilenceMob/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrbysco.silencemob.SilenceMob"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1.1",
+    "java": ">=25",
+    "fabric-api": "*",
+    "forgeconfigapiport": ">=26.1"
+  }
+}
+  
