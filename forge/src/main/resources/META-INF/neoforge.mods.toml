@@ -15,12 +15,12 @@ Adds the ability to feed Poisonous Potato to mobs to silence them
 [[dependencies.silencemob]]
 modId="minecraft"
 type="required"
-versionRange="[26.2,)"
+versionRange="[26.3,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.silencemob]]
 modId="neoforge"
 type="required"
-versionRange="[26.2.0.0-beta,)"
+versionRange="[26.3.0.0-beta,)"
 ordering="NONE"
 side="BOTH"

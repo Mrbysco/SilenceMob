@@ -5,6 +5,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.SwingAnimation;
 
 public class SilenceHelper {
 	public static InteractionResult interact(Player player, Entity entity, ItemStack itemStack) {
@@ -20,7 +21,7 @@ public class SilenceHelper {
 		//Trigger poof particle
 		entity.level().broadcastEntityEvent(entity, (byte)60);
 
-		player.swing(player.getUsedItemHand());
+		player.swing(player.getUsedItemHand(), SwingAnimation.DEFAULT, true);
 
 		return InteractionResult.SUCCESS;
 	}
